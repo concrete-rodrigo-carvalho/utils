@@ -23,7 +23,7 @@ else
 			else
 				echo "### Keeping image ${repository}:${tag}"
 			fi
-			i=${i}++
+			let "i++"
 		done
 	done
 	echo
